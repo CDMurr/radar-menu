@@ -3,3 +3,5 @@ DROP DATABASE IF EXISTS bbq_db;
 
 -- CREATE DATABASE
 CREATE DATABASE bbq_db;
+
+USE  bbq_db;
