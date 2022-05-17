@@ -15,8 +15,9 @@ html {
 .header {
   text-decoration: none;
   color: whitesmoke;
+  font-family: 'Smokum', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
   text-shadow: 2px 2px brown;
 }
 
@@ -30,6 +31,7 @@ html {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
+  font-family: 'Smokum', cursive;
   font-size: 26px;
   text-shadow: 2px 2px brown;
 }
@@ -231,6 +233,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
+  font-family: 'Smokum', cursive;
   font-size: 26px;
   color: whitesmoke;
   text-shadow: 2px 2px brown;
