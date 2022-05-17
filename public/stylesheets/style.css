@@ -1,34 +1,61 @@
 * {
   box-sizing: border-box;
-  background-color: rgb(238, 144, 196);
 }
 
-body,
 html {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
-  background-color: rgb(238, 144, 196);
+  background-image: url("../images/bbq1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-a {
+.header {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px brown;
+}
+
+.header:hover {
+  color:goldenrod;
+  text-shadow: 2px 2px brown;
+  transition: color 0.2s;
+}
+
+#nav {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 26px;
+  text-shadow: 2px 2px brown;
+}
+
+#nav:hover {
+  color:goldenrod;
+  text-shadow: 2px 2px brown;
+  transition: color 0.2s;
+}
+
+/* a {
   text-decoration: none;
   color: #225ca3;
   font-weight: bold;
   transition: color 0.1s;
-}
+} */
 
-a:hover {
+/* a:hover {
   color: #3486eb;
-}
+} */
 
 button {
-  background-color: #225ca3;
+  background-color: brown;
   border: 0;
   padding: 1%;
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
   transition: background-color 0.1s;
   cursor: pointer;
@@ -36,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: goldenrod;
 }
 
 .post-list {
@@ -80,22 +107,17 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
   height: 100%;
-  background-color: black;
 }
 
-h1 {
+/* h1 {
   font-size: 1em;
-  background-color: black;
-  /* border: 1px solid #333; */
-  background-size: cover;
-  height: 100%;
-}
+} */
 
 main {
   flex: 1;
@@ -132,15 +154,20 @@ main {
   margin-bottom: 2%;
   line-height: 350%;
   border: 1px solid black;
+  background-color: burlywood;
+  color: whitesmoke;
 }
 
-.title {
+.title h1 {
   margin: 0;
-  border: 2px solid #333;
+  border-bottom: 2px solid brown;
   font-style: bold;
-  font-size: 120%;
-  color: #7d7d7d;
-  background-color: black;
+  font-size: 26px;
+  color: whitesmoke;
+  text-shadow: 2px 2px brown;
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
 }
 
 .edit-link {
@@ -170,10 +197,25 @@ main {
   background-color: #fff5eb;
 }
 
-.comment .meta {
+/* .comment .meta {
   font-size: 90%;
   margin-bottom: 0.5%;
   opacity: 0.6;
+} */
+
+.meta{
+  color: brown;
+}
+
+.comment-link{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+.comment-link:hover{
+  color: brown;
+  text-shadow: 2px 2px whitesmoke;
+  transition: color 0.2s;
 }
 
 .new-post-form input {
@@ -185,16 +227,11 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #ccc;
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 90%;
-}
-
-div.title h1 {
-  background-color: black;
-  height: 150%;
-  display: flex;
-  justify-content: center;
+  font-size: 26px;
+  color: whitesmoke;
+  text-shadow: 2px 2px brown;
 }
