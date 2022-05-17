@@ -2,14 +2,12 @@
   box-sizing: border-box;
 }
 
-body,
 html {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: whitesmoke;
-  background-image: url("../images/rustic.jpg");
+  background-image: url("../images/bbq1.jpg");
   background-size: cover;
 }
 
@@ -141,6 +139,8 @@ main {
   margin-bottom: 2%;
   line-height: 350%;
   border: 1px solid black;
+  background-color: burlywood;
+  color: whitesmoke;
 }
 
 .title {
