@@ -9,6 +9,7 @@ html {
   font-family: sans-serif;
   background-image: url("../images/bbq1.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -22,7 +23,7 @@ html {
 .header:hover {
   color:goldenrod;
   text-shadow: 2px 2px brown;
-  transition: color 0.s;
+  transition: color 0.2s;
 }
 
 /* a {
@@ -183,6 +184,21 @@ main {
   font-size: 90%;
   margin-bottom: 0.5%;
   opacity: 0.6;
+}
+
+.meta{
+  color: brown;
+}
+
+.comment-link{
+  text-decoration: none;
+  color:white;
+}
+
+.comment-link:hover{
+  color: brown;
+  text-shadow: 2px 2px whitesmoke;
+  transition: color 0.2s;
 }
 
 .new-post-form input {
