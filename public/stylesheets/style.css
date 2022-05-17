@@ -13,12 +13,24 @@ html {
   background-size: cover;
 }
 
-a {
+.header {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 40px;
+  transition: color 0.1s;
+}
+
+.header:hover {
+  color:goldenrod
+}
+
+/* a {
   text-decoration: none;
   color: #225ca3;
   font-weight: bold;
   transition: color 0.1s;
-}
+} */
 
 a:hover {
   color: #3486eb;
@@ -86,15 +98,10 @@ header {
   align-items: center;
   padding: 0;
   height: 100%;
-  background-color: black;
 }
 
 h1 {
   font-size: 1em;
-  background-color: black;
-  /* border: 1px solid #333; */
-  background-size: cover;
-  height: 100%;
 }
 
 main {
