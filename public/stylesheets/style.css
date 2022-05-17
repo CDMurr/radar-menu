@@ -17,12 +17,14 @@ html {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
-  font-size: 40px;
-  transition: color 0.1s;
+  font-size: 50px;
+  text-shadow: 2px 2px brown;
 }
 
 .header:hover {
-  color:goldenrod
+  color:goldenrod;
+  text-shadow: 2px 2px brown;
+  transition: color 0.s;
 }
 
 /* a {
