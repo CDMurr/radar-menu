@@ -26,7 +26,7 @@ html {
   transition: color 0.2s;
 }
 
-.log {
+#nav {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
@@ -34,7 +34,7 @@ html {
   text-shadow: 2px 2px brown;
 }
 
-.log:hover {
+#nav:hover {
   color:goldenrod;
   text-shadow: 2px 2px brown;
   transition: color 0.2s;
@@ -52,10 +52,10 @@ html {
 } */
 
 button {
-  background-color: #225ca3;
+  background-color: brown;
   border: 0;
   padding: 1%;
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
   transition: background-color 0.1s;
   cursor: pointer;
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: goldenrod;
 }
 
 .post-list {
