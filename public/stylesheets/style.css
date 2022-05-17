@@ -26,6 +26,20 @@ html {
   transition: color 0.2s;
 }
 
+.log {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 26px;
+  text-shadow: 2px 2px brown;
+}
+
+.log:hover {
+  color:goldenrod;
+  text-shadow: 2px 2px brown;
+  transition: color 0.2s;
+}
+
 /* a {
   text-decoration: none;
   color: #225ca3;
@@ -33,9 +47,9 @@ html {
   transition: color 0.1s;
 } */
 
-a:hover {
+/* a:hover {
   color: #3486eb;
-}
+} */
 
 button {
   background-color: #225ca3;
@@ -93,7 +107,7 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,9 +115,9 @@ header {
   height: 100%;
 }
 
-h1 {
+/* h1 {
   font-size: 1em;
-}
+} */
 
 main {
   flex: 1;
@@ -183,11 +197,11 @@ main {
   background-color: #fff5eb;
 }
 
-.comment .meta {
+/* .comment .meta {
   font-size: 90%;
   margin-bottom: 0.5%;
   opacity: 0.6;
-}
+} */
 
 .meta{
   color: brown;
@@ -195,7 +209,7 @@ main {
 
 .comment-link{
   text-decoration: none;
-  color:white;
+  color:whitesmoke;
 }
 
 .comment-link:hover{
@@ -213,9 +227,11 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #ccc;
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 90%;
+  font-size: 26px;
+  color: whitesmoke;
+  text-shadow: 2px 2px brown;
 }
