@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: rgb(238, 144, 196);
 }
 
 body,
@@ -10,7 +9,8 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
-  background-color: rgb(238, 144, 196);
+  background-image: url("../images/rustic.jpg");
+  background-size: cover;
 }
 
 a {
