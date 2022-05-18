@@ -39,7 +39,7 @@ This is extremely helpful to get feedback from the customers to see which menu i
 
 Owners can leverage the platform to interact with there customers on a pesonal level. 
 
-![alt text](Screen%20Shot%202022-05-17%20at%203.04.23%20PM.png)
+  #### ![screen-shot](public/images/final1.png)
 
 ## How to install 
 
@@ -56,11 +56,11 @@ Install dependencies with npm install.
 * Heroku 
 
 ## Contributors 
-* Ranya Tlieb 
+* Ranya Tleib 
 GitHub:
 https://github.com/rtleib
 
-* Mark Hunter
+* Mark Munter
 GitHub:
 https://github.com/mhmunter
 
