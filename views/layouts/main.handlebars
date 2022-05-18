@@ -4,26 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>Your Favorite BBQ Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 <body>
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">My Blogyblog</a>
+        <a class="header" href="/">Radar Menu</a>
       </h1>
+      <h1 class="ml5">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters letters-left">Two</span>
+    <span class="letters ampersand">M</span>
+    <span class="letters letters-right">BAR-B-Q</span>
+    <span class="line line2"></span>
+  </span>
+</h1>
       <nav>
+   
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <a class="nav" href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style nav">logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a class="nav" href="/login">login</a>
         {{/if}}
       </nav>
     </header>
     <main>
+  </h1>
       {{{ body }}}
     </main>
     <footer>
@@ -31,9 +43,12 @@
     </footer>
   </div>
   
+  {{!-- <script src="../../node_modules/animejs/lib/anime.js"></script> --}}
+
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
+  <script src="/javascript/go.js"></script>
 </body>
 
 </html>
