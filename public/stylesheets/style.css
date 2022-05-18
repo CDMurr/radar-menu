@@ -6,7 +6,6 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
   background-image: url("../images/bbq1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -15,8 +14,9 @@ html {
 .header {
   text-decoration: none;
   color: whitesmoke;
+  font-family: 'Rye', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
   text-shadow: 2px 2px brown;
 }
 
@@ -30,7 +30,8 @@ html {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
-  font-size: 26px;
+  font-family: 'Rye', cursive;
+  font-size: 34px;
   text-shadow: 2px 2px brown;
 }
 
@@ -50,6 +51,12 @@ html {
 /* a:hover {
   color: #3486eb;
 } */
+
+h3 {
+  font-family: 'Rye', cursive;
+  font-size: 26px;
+  text-shadow: 2px 2px black;
+}
 
 button {
   background-color: brown;
@@ -162,7 +169,8 @@ main {
   margin: 0;
   border-bottom: 2px solid brown;
   font-style: bold;
-  font-size: 26px;
+  font-family: 'Rye', cursive;
+  font-size: 34px;
   color: whitesmoke;
   text-shadow: 2px 2px brown;
   display: flex;
@@ -231,7 +239,8 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 26px;
+  font-family: 'Rye', cursive;
+  font-size: 34px;
   color: whitesmoke;
   text-shadow: 2px 2px brown;
 }
