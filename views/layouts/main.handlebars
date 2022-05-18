@@ -1,45 +1,58 @@
 <html lang='en'>
-
-  <head>
-    <meta charset='UTF-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <title>Your Favorite BBQ Blog</title>
-    <link rel='stylesheet' href='./stylesheets/style.css' />
-    <link rel='preconnect' href='https://fonts.googleapis.com' />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Favorite BBQ Blog</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+         <link rel='preconnect' href='https://fonts.googleapis.com' />
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
     <link
       href='https://fonts.googleapis.com/css2?family=Merienda+One&family=Rye&family=Smokum&display=swap'
       rel='stylesheet'
     />
-    /> />
-  </head>
+</head>
 
-  <body>
-    <div class='wrapper'>
-      <header>
-        <h1>
-          <a class='header' href='/'>Radar Menu</a>
-        </h1>
-        <nav>
-          {{#if loggedIn}}
-            <a id='nav' href='/dashboard'>dashboard</a>
-            <button id='nav' class='btn-no-style'>logout</button>
-          {{else}}
-            <a id='nav' href='/login'>login</a>
-          {{/if}}
-        </nav>
-      </header>
-      <main>
-        {{{body}}}
-      </main>
-      <footer>
-        Thanks for visiting!
-      </footer>
-    </div>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>
+        <a class="header" href="/">Radar Menu</a>
+      </h1>
+      <h1 class="ml5">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters letters-left">2</span>
+    <span class="letters ampersand">M</span>
+    <span class="letters letters-right">Smoke House</span>
+    <span class="line line2"></span>
+  </span>
+</h1>
+      <nav>
+   
+        {{#if loggedIn}}
+        <a class="nav" href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style nav">logout</button>
+        {{else}}
+        <a class="nav" href="/login">login</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main>
+  </h1>
+      {{{ body }}}
+    </main>
+    <footer>
+      Thanks for visiting!
+    </footer>
+  </div>
+  
+  {{!-- <script src="../../node_modules/animejs/lib/anime.js"></script> --}}
 
-    {{#if loggedIn}}
-      <script src='/javascript/logout.js'></script>
-    {{/if}}
-  </body>
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+  <script src="/javascript/go.js"></script>
+</body>
 
 </html>
