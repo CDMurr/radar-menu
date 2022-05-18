@@ -20,10 +20,22 @@ html {
   text-shadow: 2px 2px brown;
 }
 
-.header:hover {
+.header:hover, .business-link:hover {
   color:goldenrod;
   text-shadow: 2px 2px brown;
   transition: color 0.2s;
+}
+
+.header-container {
+  margin-bottom: 10px;
+}
+
+.business-link {
+  color: whitesmoke;
+  font-family: 'Rye', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 2px 2px brown;
 }
 
 .nav {
@@ -94,6 +106,7 @@ input:focus {
 textarea {
   min-width: 40%;
   min-height: 100px;
+  resize: none;
 }
 
 form > div {
@@ -102,7 +115,11 @@ form > div {
 
 form label {
   display: block;
+  color: whitesmoke;
+  font-family: 'Rye', cursive;
+  text-shadow: 2px 2px brown;
 }
+
 
 .wrapper {
   width: 100%;
@@ -111,6 +128,10 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+.wrapper h1 {
+  margin-bottom: 0;
 }
 
 header {
