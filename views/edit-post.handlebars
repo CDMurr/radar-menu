@@ -1,5 +1,5 @@
 <article>
-  <a href="/dashboard"> &larr; Back to dashboard</a>
+  <a class="dashboard" href="/dashboard"> &larr; Back to dashboard</a>
   <h2>
     Edit Post
   </h2>
@@ -10,10 +10,10 @@
       {{comment_text}}
     </div>
     </div>
-    <div>
+    <div class="count">
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
       |
-      <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+      <a class="count" href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
     <button type="submit">Save post</button>
     <button type="button" class="delete-post-btn">Delete post</button>

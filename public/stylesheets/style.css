@@ -34,11 +34,12 @@ html {
   color: whitesmoke;
   font-family: 'Rye', cursive;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 34px;
   text-shadow: 2px 2px brown;
 }
 
-.nav {
+.nav, #logout {
+  margin-top: 125px;
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
@@ -47,22 +48,11 @@ html {
   text-shadow: 2px 2px brown;
 }
 
-.nav:hover {
+.nav:hover, #logout:hover {
   color:goldenrod;
   text-shadow: 2px 2px brown;
   transition: color 0.2s;
 }
-
-/* a {
-  text-decoration: none;
-  color: #225ca3;
-  font-weight: bold;
-  transition: color 0.1s;
-} */
-
-/* a:hover {
-  color: #3486eb;
-} */
 
 h3 {
   font-family: 'Rye', cursive;
@@ -76,9 +66,13 @@ button {
   padding: 1%;
   color: whitesmoke;
   font-weight: bold;
-  transition: background-color 0.1s;
+  transition: background-color 0.2s;
   cursor: pointer;
   border-radius: 5px;
+  font-family: 'Rye', cursive;
+  font-size: 24px;
+  text-shadow: 2px 2px black;
+  width: 175px;
 }
 
 button:hover {
@@ -95,6 +89,10 @@ input {
   padding: 0.5%;
   border-radius: 5px;
   border: 1px solid #ccc;
+  width: 400px;
+  font-family: 'Rye', cursive;
+  font-size: 24px;
+  color: brown;
 }
 
 textarea:focus,
@@ -109,8 +107,25 @@ textarea {
   resize: none;
 }
 
+.dashboard {
+  color: whitesmoke;
+  font-family: 'Rye', cursive;
+  text-shadow: 2px 2px brown;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.count {
+  color: whitesmoke;
+  font-family: 'Rye', cursive;
+  text-shadow: 2px 2px brown;
+  font-size: 16px;
+  text-decoration: none;
+}
+
 form > div {
   margin-bottom: 2%;
+  width: 400px;
 }
 
 form label {
@@ -118,8 +133,8 @@ form label {
   color: whitesmoke;
   font-family: 'Rye', cursive;
   text-shadow: 2px 2px brown;
+  font-size: 26px;
 }
-
 
 .wrapper {
   width: 100%;
@@ -143,10 +158,6 @@ header {
   height: 100%;
 }
 
-/* h1 {
-  font-size: 1em;
-} */
-
 main {
   flex: 1;
   padding: 2% 4%;
@@ -158,24 +169,21 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
-  font-size: 100%;
   font-weight: bold;
-  transition: color 0.1s;
+  transition: color 0.2s;
   margin-left: 16px;
 }
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: burlywood;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: goldenrod;
 }
 
 .post {
@@ -196,21 +204,39 @@ main {
   text-shadow: 2px 2px brown;
   display: flex;
   justify-content: center;
-  /* background-color: black; */
 }
 
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Rye', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 2px 2px brown;
+}
+.edit-link:hover {
+  color:goldenrod;
+  text-shadow: 2px 2px brown;
+  transition: color 0.2s;
 }
 
 .upvote-btn {
   background-color: #197d0f;
-  transition: background-color 0.1s;
+  transition: background-color 0.2s;
 }
 
 .upvote-btn:hover {
   background-color: #1f9c13;
+}
+
+h2 {
+  font-family: 'Rye', cursive;
+  font-size: 34px;
+  color: whitesmoke;
+  text-shadow: 2px 2px brown;
+  text-align: center;
 }
 
 .comment-form {
@@ -220,10 +246,8 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
-}
-
-.comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: whitesmoke;
+  
 }
 
 /* .comment .meta {
@@ -247,8 +271,11 @@ main {
   transition: color 0.2s;
 }
 
-.new-post-form input {
-  width: 300px;
+.new-post-form input, #comment-body {
+  width: 400px;
+  font-family: 'Rye', cursive;
+  font-size: 24px;
+  color: brown;
 }
 
 .edit-post-form {
@@ -270,9 +297,9 @@ footer {
 .ml5 {
   position: relative;
   font-weight: 300;
-  font-size: 4.5em;
-  color: #402d2d;
+  color: brown;
 }
+
 
 .ml5 .text-wrapper {
   position: relative;
@@ -281,6 +308,7 @@ footer {
   padding-right: 0.05em;
   padding-bottom: 0.15em;
   line-height: 1em;
+  text-align: center;
 }
 
 .ml5 .line {
@@ -291,21 +319,27 @@ footer {
   margin: auto;
   height: 3px;
   width: 100%;
-  background-color: #402d2d;
+  background-color: brown;
   transform-origin: 0.5 0;
 }
 
 .ml5 .ampersand {
-  font-family: Baskerville, serif;
-  font-style: italic;
   font-weight: 400;
-  width: 1em;
   margin-right: -0.1em;
   margin-left: -0.1em;
 }
 
 .ml5 .letters {
+  font-family: 'Rye', cursive;
   display: inline-block;
   opacity: 0;
   color: whitesmoke;
+  text-shadow: 2px 2px brown;
+  animation-duration: 30.5s;
+}
+
+.letters:hover {
+  color:goldenrod;
+  text-shadow: 2px 2px brown;
+  transition: color 0.2s;
 }
