@@ -1,28 +1,28 @@
 # RADAR MENU 
 
-## Desciption
-Menu rating appliction in the hands of the Business owners, that allows for real honest feedback from customers. 
+## Description
+Menu rating application in the hands of the Business owners, that allows for real honest feedback from customers. 
 
-This application allows users to create an account, and make post, comments, and upote on things they like. 
+This application allows users to create an account, and make post, comments, and upvote on things they like. 
 
-User will recieve an email with a link to the application, once they've signed up for the businesses customer loyalty program.
+User will receive an email with a link to the application, once they've signed up for the business’s customer loyalty program.
 
 ## Motivation
-The motivation for this project, was to give resterauants at better opportunity to get honest feedback from loyal customers. 
+The motivation for this project, was to give restaurants at better opportunity to get honest feedback from loyal customers. 
 
 Not just upset customers online, or people in pursuit of a career in food blogging. 
 
 
 This application Gives small businesses the opportunity to leverage an Existing / New customer loyalty program, to interact with their customers on personal level. 
 
-To get real feed back from real customers.
+To get real feedback from real customers.
 
 
 As well,  
 
-We look to provide a solution to new-loyal customers, and existing-loyal customers a chance to get feed back from other loyal-repeat customers. 
+We look to provide a solution to new-loyal customers, and existing-loyal customers a chance to get feedback from other loyal-repeat customers. 
 
-Who are posting from the heart, expressing the menu items they've most enjoyed, and why. 
+Who are posting from the heart, expressing the menu items they've most enjoyed, and why? 
 
 This application does still leave room for honest feedback, so not everything may be positive. 
 
@@ -31,13 +31,13 @@ But the intent of the application, is to get post and comments that are coming f
 ## Usage
 Businesses send out the link to the live application. 
 
-Once the application is opened, the user will be presented with the Homepage, with exisiting posts, and comments about various menus items the restaurant has. 
+Once the application is opened, the user will be presented with the Homepage, with existing posts, and comments about various menus items the restaurant has. 
 
-Then the customer can sign-up, or log-in. Once the customer is logged in they will then have access to make their own post, comments,and upvote ability. 
+Then the customer can sign-up, or log-in. Once the customer is logged in, they will then have access to make their own post, comments, and upvote ability. 
 
-This is extremely helpful to get feedback from the customers to see which menu items the custmers are talking the most about, and to help get feed back on new menu items once they've been rolled out.
+This is extremely helpful to get feedback from the customers to see which menu items the customers are talking the most about, and to help get feedback on new menu items once they've been rolled out.
 
-Owners can leverage the platform to interact with there customers on a pesonal level. 
+Owners can leverage the platform to interact with their customers on a personal level. 
 
   #### ![screen-shot](public/images/final1.png)
 
@@ -54,6 +54,7 @@ Install dependencies with npm install.
 * MySQL
 * Sequelize
 * Heroku 
+* Anime.js
 
 ## Contributors 
 * Ranya Tleib 
@@ -71,7 +72,7 @@ https://github.com/CDMurr
 
 ## Link to live application, deployed on Heroku
 https://radar-menu.herokuapp.com/
-## Github repostitory 
+## Github repository 
 https://github.com/rtleib/radar-menu
 
 
