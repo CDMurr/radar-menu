@@ -277,4 +277,5 @@ footer {
 .ml5 .letters {
   display: inline-block;
   opacity: 0;
+  color: whitesmoke;
 }
