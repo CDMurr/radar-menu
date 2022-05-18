@@ -1,12 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
+body,
 html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
   background-image: url("../images/bbq1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -15,26 +14,40 @@ html {
 .header {
   text-decoration: none;
   color: whitesmoke;
+  font-family: 'Rye', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
   text-shadow: 2px 2px brown;
 }
 
-.header:hover {
+.header:hover, .business-link:hover {
   color:goldenrod;
   text-shadow: 2px 2px brown;
   transition: color 0.2s;
 }
 
-#nav {
-  text-decoration: none;
+.header-container {
+  margin-bottom: 10px;
+}
+
+.business-link {
   color: whitesmoke;
+  font-family: 'Rye', cursive;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 24px;
   text-shadow: 2px 2px brown;
 }
 
-#nav:hover {
+.nav {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: 'Rye', cursive;
+  font-size: 34px;
+  text-shadow: 2px 2px brown;
+}
+
+.nav:hover {
   color:goldenrod;
   text-shadow: 2px 2px brown;
   transition: color 0.2s;
@@ -50,6 +63,12 @@ html {
 /* a:hover {
   color: #3486eb;
 } */
+
+h3 {
+  font-family: 'Rye', cursive;
+  font-size: 26px;
+  text-shadow: 2px 2px black;
+}
 
 button {
   background-color: brown;
@@ -87,6 +106,7 @@ input:focus {
 textarea {
   min-width: 40%;
   min-height: 100px;
+  resize: none;
 }
 
 form > div {
@@ -95,7 +115,11 @@ form > div {
 
 form label {
   display: block;
+  color: whitesmoke;
+  font-family: 'Rye', cursive;
+  text-shadow: 2px 2px brown;
 }
+
 
 .wrapper {
   width: 100%;
@@ -104,6 +128,10 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+.wrapper h1 {
+  margin-bottom: 0;
 }
 
 header {
@@ -162,7 +190,8 @@ main {
   margin: 0;
   border-bottom: 2px solid brown;
   font-style: bold;
-  font-size: 26px;
+  font-family: 'Rye', cursive;
+  font-size: 34px;
   color: whitesmoke;
   text-shadow: 2px 2px brown;
   display: flex;
@@ -231,7 +260,52 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 26px;
+  font-family: 'Rye', cursive;
+  font-size: 34px;
   color: whitesmoke;
   text-shadow: 2px 2px brown;
+}
+
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+  color: whitesmoke;
 }
